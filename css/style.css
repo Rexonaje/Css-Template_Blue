@@ -52,6 +52,16 @@ header h1{
     
 
 }
+.containerMenu li:hover{
+    flex-grow: 1;
+    flex-direction: row;
+    padding:10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1e50d8;
+    
+
+}
 
 /* seccion one */
 .ReferenceImage{
@@ -106,7 +116,15 @@ header h1{
     color:white;
     background-color: #0f4fff;
 }
+.pharag button:hover{
+    padding: 25px;
+    font-size: 15px;
+    font-weight: lighter;
+    color:w#cccccc;
+    background-color: #1e50d8;
+}
 
+/* footer*/
 footer{
     
     display: flex;
